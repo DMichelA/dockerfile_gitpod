@@ -17,5 +17,5 @@ docker run -it -v /workspace/dockerfile_gitpod/webapp:/webapp -p 8080 --name web
 docker ps -a
 
 ## Ejecutar php desde terminal
-$cd /webapp
-$php -S 0.0.0.0:8080
+cd /webapp
+php -S 0.0.0.0:8080
